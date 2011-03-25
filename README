@@ -9,8 +9,7 @@ git clone git@github.com:jeremyfsu/Radiant-CMS-Random-Photo-Extension.git vendor
 
 Usage:
 <r:random_photo dir="images/slideshow" />
-Will render an IMG tag with the src being a randomly selected
-a photo from public/images/slideshow.
+Will render an IMG tag with the src being a randomly selected photo from public/images/slideshow.
 
 The dir property is optional, not including it will cause random_photo to look in public/images.
 
