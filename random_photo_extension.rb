@@ -4,7 +4,7 @@
 class RandomPhotoExtension < Radiant::Extension
   version "1.0"
   description "Random photos for your Radiant site"
-  url "http://yourwebsite.com/random_photo"
+  url "https://github.com/jeremyfsu/Radiant-CMS-Random-Photo-Extension"
   
   def activate
     Page.send :include, RandomPhoto
