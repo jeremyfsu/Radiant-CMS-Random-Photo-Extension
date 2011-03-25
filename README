@@ -1,0 +1,17 @@
+= Random Photo
+
+Adds a Radiant tag called r:random_photo that selects a random photo from a specified
+directory with each page load.
+
+Installation:
+git clone this to your vendor/extensions directory
+
+Example:
+<r:random_photo dir="images/slideshow" />
+Will render an IMG tag with the src being a randomly selected
+a photo from public/images/slideshow.
+
+The dir property is optional, not including it will cause random_photo to look in public/images.
+
+License:
+Licensed under the MIT license, please see LICENSE file for more information.
