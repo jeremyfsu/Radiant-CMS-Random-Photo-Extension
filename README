@@ -4,9 +4,10 @@ Adds a Radiant tag called r:random_photo that selects a random photo from a spec
 directory with each page load.
 
 Installation:
-git clone this to your vendor/extensions directory
+cd /root/to/your/radiant/app/
+git clone git@github.com:jeremyfsu/Radiant-CMS-Random-Photo-Extension.git vendor/extensions/random_photo
 
-Example:
+Usage:
 <r:random_photo dir="images/slideshow" />
 Will render an IMG tag with the src being a randomly selected
 a photo from public/images/slideshow.
